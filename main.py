@@ -31,14 +31,14 @@ def account_authenticator(e):
 
             # Password will contain at least one letter and one number for mr ortiz
             if has_letter and has_number:
-                document.getElementById("output").innerHTML = f"Welcome, {username}! Account created successfully."
+                document.getElementById("output").innerHTML = f"Welcome, {username}! Account created successfully homie :>"
             else:
                 document.getElementById("output").innerHTML = "Password must contain at least one letter and one number."
 
         else:
-            document.getElementById("output").innerHTML = "Password must be at least 10 characters long."
+            document.getElementById("output").innerHTML = "passwordd must be at least 10 characters long."
 
     else:
-        document.getElementById("output").innerHTML = "Username must be at least 7 characters."
+        document.getElementById("output").innerHTML = "username must be at least 7 characters long please"
 
 
