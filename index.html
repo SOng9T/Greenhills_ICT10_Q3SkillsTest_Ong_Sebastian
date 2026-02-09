@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <title>Skills Test | Ong</title>
+
+</head>
+<body>
+
+    <h2>Account Creation</h2>
+        <label>Username:</label>
+        <input type="text" id="name">
+<br><br>
+
+        <label>Password:</label>
+        <input type="text" id="digits">
+
+<br><br>
+
+        <button py-click="account_authenticator">
+        Create Account
+        </button>
+
+<p id="output"></p>
+<py-script src="main.py"></py-script>
+
+</body>
+</html>
